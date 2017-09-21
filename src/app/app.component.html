@@ -1,0 +1,10 @@
+<h1>{{ appTitle }}</h1>
+<span *ngIf = 'appStatus'>This will be added!</span>
+
+<div *ngFor = 'let list of appList'>
+  <ul>
+    <li>{{ list.ID }}</li>
+    <li>{{ list.Name }}</li>
+    <span><img [src] = 'list.url' class='img-responsive' style="width: 100px"></span>
+  </ul>
+</div>

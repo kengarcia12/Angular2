@@ -1,0 +1,15 @@
+COMPONENTS
+- Template ( Used to render the view of the app )
+- Class ( Class contains properties and methods - used to support the view defined in trypescript )
+- Metadata ( It is defined with a decorator )
+
+Template
+- templateURL:
+  viewname.component.html
+
+DIRECTIVES
+- ngIf : syntax : <div *ngIf = 'variable'> {{ content }} </div>
+- ngF  : syntax : <div *ngFor = 'let list of listItem' ></div>
+
+METADATA
+- Annotations ( These are decorators at the class level )
